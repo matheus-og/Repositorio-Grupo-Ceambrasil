@@ -15,7 +15,7 @@
       <link rel="stylesheet" href="css/style.css">
       <link rel="stylesheet" type="text/css" href="css/estilos.css">
       <link rel="stylesheet" type="text/css" href="css/outros_estilos.css">
-      <title>Trabalhe Conosco</title>
+      <title>Contato</title>
    </head>
    <body id="body">
             <!--HEADER-->
@@ -63,7 +63,7 @@
       <section class="bg-primary mb-5">
          <div class="container">
             <div class="row py-5">
-               <div id="banner-animado" href="" class="col h5 typewrite bg-primary ml-5 text-white" data-period="2000" data-type='[ "Trabalhe Conosco.", "CeamBrasil.", "Escolha o Destino e Deixe as Preocupações Conosco." ]'> </div>
+               <div id="banner-animado" href="" class="col h5 typewrite bg-primary ml-5 text-white altura-banner" data-period="2000" data-type='[ "Trabalhe Conosco.", "CeamBrasil.", "Escolha o Destino e Deixe as Preocupações Conosco." ]'> </div>
             </div>
          </div>
       </section>
@@ -71,17 +71,19 @@
       <section class="container ">
          <div class="row">
             <!-- formulario de contato -->
-            <div class="col-12 col-md-6">            
-               <form class="text-center border border-light mb-5 " action="trabalhe_conosco.php" method="post">
-                  <p class="h4 mb-4 text-primary">Envie seu curriculum</p>
+            <div class="col-6 col-md-6">            
+               <form class="text-center border border-light mb-5 " action="processa_envio_curriculum.php" method="post">
+                  <p class="h4 mb-4 text-primary">Envie seu Curriculum</p>
                   <!-- Nome -->
                   <input type="text" id="nome" name="nome" class="form-control mb-4" placeholder="Nome completo">
                   <!-- Email -->
                   <input type="email" id="email" name="email" class="form-control mb-4" placeholder="E-mail">
-                   <!-- Email -->
-                  <input type="text" id="celular" name="celular" class="form-control mb-4" placeholder="Celular"> 
+                  <!-- celular -->
+                  <input type="text" id="celular" name="celular" class="form-control mb-4" placeholder="Celular">
                   
-                   <select class="browser-default custom-select mb-4" id="area_atuacao">
+                  <!-- celular -->
+                  <div class="form-group">
+                     <select class="browser-default custom-select mb-4 form-control" id="area_atuacao" name="area_atuacao">
                        <option value="" disabled selected>Selecione sua área de atuação</option>
                        <option value="Administrativo">Administrativo</option>
                        <option value="2">Recepção</option>
@@ -90,23 +92,26 @@
                        <option value="5">Médicos</option>
                        <option value="6">Radiologia</option>
                        <option value="7">Outros</option>
-                   </select>
-
+                     </select>
+                  </div>
+ 
                   <!-- Mensagem -->
                   <div class="form-group">
-                     <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Mensagem"></textarea>
+                     <textarea class="form-control rounded-0" id="apresentacao" name="apresentacao" rows="3" placeholder="Mensagem"></textarea>
                   </div>
+
+               
                   <!-- Botão Enviar -->
                   <button class="btn btn-primary btn-block" type="submit">Enviar</button>
                </form><!-- Default form contact -->
             </div>
             <!--detalhes para contato-->
-            <div class="col-12 col-md-6">
-               <p class="text-uppercase font-weight-bold mt-md-5 ml-5 text-primary">Telefone</p>
+            <div class="col-6 col-md-6">
+               <p class="text-uppercase font-weight-bold mt-5 ml-5 text-primary">Telefone</p>
                <p class="text-uppercase text-secondary font-weight-bold mt-1 ml-5">35 3629 8000</p>
 
                <p class="text-uppercase font-weight-bold mt-4 ml-5 text-primary">e-mail</p>
-               <p class="text-secondary font-weight-bold mt-1 ml-5 mb-5">contato@ceambrasil.com</p>
+               <p class="text-secondary font-weight-bold mt-1 ml-5">contato@ceambrasil.com</p>
             </div> 
          </div>
       </section>
