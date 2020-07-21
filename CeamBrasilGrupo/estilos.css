@@ -1,13 +1,7 @@
-html, body, section {
-	height: 100%;
-	overflow-x: hidden;
-	margin: 0;
+#header {
+	height: 132px;
 }
 
-section {
-	
-		background: rgb(0,121,255);
-		background: -webkit-linear-gradient(left, rgba(0,121,255,1) 0%, rgba(0,197,255,1) 28%, rgba(255,255,255,1) 51%);
-		background: -o-linear-gradient(left, rgba(0,121,255,1) 0%, rgba(0,197,255,1) 28%, rgba(255,255,255,1) 51%);
-		background: linear-gradient(to right, rgba(0,121,255,1) 0%, rgba(0,197,255,1) 28%, rgba(255,255,255,1) 51%);
-	}			
+#header nav{
+	margin-top: 22px;
+}
