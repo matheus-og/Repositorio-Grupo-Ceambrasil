@@ -1,0 +1,262 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+	height: 100%;
+	overflow-x: hidden;
+	
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+/*BOTAO SUBIR*/
+.scroll-top-wrapper {
+    position: fixed;
+    opacity: 0;
+    visibility: hidden;
+	overflow: hidden;
+	text-align: center;
+	z-index: 99999999;
+    background-color: #777777;
+	color: #eeeeee;
+	width: 50px;
+	height: 48px;
+	line-height: 48px;
+	right: 30px;
+	bottom: 30px;
+	padding-top: 2px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.scroll-top-wrapper:hover {
+	background-color: #888888;
+}
+.scroll-top-wrapper.show {
+    visibility:visible;
+    cursor:pointer;
+	opacity: 1.0;
+}
+.scroll-top-wrapper i.fa {
+	line-height: inherit;
+}
+
+/*FIM BOTAO SUBIR*/
+
+.marcador1{
+	border: 1px solid red;
+	background-color: gray;
+}
+
+.marcador2{
+	border: 1px solid red;
+	background-color: blue;
+}
+
+
+.marcador3{
+	border: 1px solid red;
+	background-color: green;
+}
+
+
+.azul-escuro {
+	color: #124daa!important;
+}
+
+.hover:hover{
+	background-color: black!important;
+}
+
+.margin-bottom-menu {
+	margin-bottom: 5em; 
+}
+
+.nao-decorar {
+	text-decoration: none!important;
+}
+
+.z-5 {
+	z-index: 5!important;
+}
+
+h2 {
+	font-family: "Arial";
+}
+
+p {
+	font-family: "Arial";
+	color: black;
+}
+
+.bg-azul-escuro {
+	background-color: #083673;
+}
+
+.borda-bottom-branca {
+	border-bottom: 1px solid white;
+}
+
+.bg-preto{
+	background-color: #141414;
+}
+
+@media (min-width: 0px) { 
+
+	.titulo 
+	{
+		font-size: 1em;	
+		color: #007BFF;
+		font-weight: bold;
+
+	}
+
+	
+
+}
+
+@media (max-width: 575px) {
+  .bg-preto-secundario {
+    background-color: #414549;
+  }  
+
+ 
+}
+
+
+
+@media (max-width: 767px) {
+   footer {
+    text-align: center;
+  }
+	
+.calendario {
+	width: 50%!important;
+}
+
+}
+
+@media (min-width: 993px) {
+ .conteudo-li-cotacao {
+	width: 350px;
+	margin-left: auto;
+}
+
+ 
+}
+
+
+@media (min-width: 768px) { 
+
+	.titulo 
+	{
+		font-size: 1.5em;	
+		color: #007BFF;
+		font-weight: bold;
+
+	}
+
+	.bg-preto-secundario {
+		background-color: rgba(0,0,0,0.0);
+	}
+
+  
+}
+
+@media(min-width: 992px){
+  .hist-carrosel-width {
+    width: 80%;
+  }
+}
+
+.img-hist {
+  width: 576px;
+  
+}
+
+
+
+.text-hist{
+  font-size: 1em;
+}
+
+.color-primary-transparent {
+  background-color: rgba(0, 123, 255, 0.5);
+}
+
+.bg-azul-claro {
+  background-color: #33B5E5;
+}
+
+.planos-bg{
+	background-image: url(../images/c1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 20px 0px; 
+}
+
+
+
+
+
+/*SCROLL PLANOS*/
+.MultiCarousel { float: left; overflow: hidden; padding: 15px; width: 100%; position:relative; }
+    .MultiCarousel .MultiCarousel-inner { transition: 1s ease all; float: left; }
+        .MultiCarousel .MultiCarousel-inner .item { float: left;}
+        .MultiCarousel .MultiCarousel-inner .item > div { text-align: center; padding:10px; margin:10px; background:#f1f1f1; color:#666;}
+    .MultiCarousel .leftLst, .MultiCarousel .rightLst { position:absolute; border-radius:50%;top:calc(50% - 20px); }
+    .MultiCarousel .leftLst { left:0; }
+    .MultiCarousel .rightLst { right:0; }
+    
+        .MultiCarousel .leftLst.over, .MultiCarousel .rightLst.over { pointer-events: none; background:#ccc; }
+
+
+.input-group-text {
+	width: 46px;
+}
+
+@media (min-width: 0px) { 
+	#banner-animado{
+		font-size: 1.3em!important;
+		height: 50px;
+		padding: 5px;
+	}
+}
+
+@media (min-width: 768px) {
+	#banner-animado{
+		font-size: 1.5em!important;
+		height: 50px;
+	}
+}
+
+@media (min-width: 1024px) {
+	#banner-animado{
+		font-size: 2em!important;
+		height: 50px;
+	}
+}
