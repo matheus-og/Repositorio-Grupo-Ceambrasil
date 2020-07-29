@@ -18,7 +18,7 @@
       <title>Institucional</title>
    </head>
    <body id="body">
-            <!--HEADER-->
+         <!--HEADER-->
       <header class="sticky-top shadow bg-white rounded">
          <!-- MENU--> 
          <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -32,16 +32,16 @@
                <div class="collapse navbar-collapse font-weight-bold" id="navbarNav">
                   <ul class="navbar-nav ml-auto">
                      <li class="nav-item active text-uppercase">
-                        <a class="nav-link azul-escuro" href="index.html">Home </a>
+                        <a class="nav-link text-primary " href="index.html">Home <span class="sr-only">(Página atual)</span></a>
                      </li>
                      <li class="nav-item text-uppercase">
-                        <a class="nav-link text-primary" href="institucional.html"><span class="sr-only">(Página atual)</span>Institucional</a>
+                        <a class="nav-link azul-escuro " href="institucional.html">Institucional</a>
                      </li>
                      <li class="nav-item text-uppercase">
-                        <a class="nav-link azul-escuro" href="informativo.html">Informativo</a>
+                        <a class="nav-link azul-escuro" href="planos_atendidos.html">Planos Atendidos</a>
                      </li>
                      <li class="nav-item text-uppercase">
-                        <a class="nav-link azul-escuro" href="planos.php">Planos</a>
+                        <a class="nav-link azul-escuro" href="estrutura.html">Estrutura</a>
                      </li>
                      <li class="nav-item text-uppercase">
                         <a class="nav-link azul-escuro" href="contato.php">Contato</a>
@@ -71,22 +71,7 @@
       <div class="container mb-5">
          <!--container painel-->
          <div class="card">
-            <!--card-->
-            <div class="card-header">
-               <!--menus tabs-->
-               <ul class="nav nav-tabs card-header-tabs" role="tablist">
-                  <li class="nav-item">
-                     <a class="nav-link active" data-toggle="tab" href="#historia" role="tab" aria-controls="home">História</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" data-toggle="tab" href="#balanco" role="tab" aria-controls="balanco" >Balanço</a>
-                  </li>
-                  <li class="nav-item">
-                     <a class="nav-link" data-toggle="tab" href="#mvv">MVV</a>
-                  </li>
-               </ul>
-            </div>
-            <!--/menus-->
+         
             <div class="card-body tab-content p-0 mb-">
                <!--conteudos-->
                <div id="historia" class="tab-pane fade active show">
@@ -183,113 +168,8 @@
                      </div>
                   </div>
                </div>
-               <div id="balanco" class="tab-pane fade">
-                  <!--ABA BALANCO-->
-                  <div class="d-flex flex-wrap">
-                     <div class="col-12 p-0">
-                        <div class="card border border-white mt-3">
-                           <!--COMECO BALNCO      (obs: a cada novo balanco trocar ID #lista+n° atual e data-target para o ID da lista atual)    -->            
-                           <div class="card-body m-0 mb-2 p-0 row align-items-center border-bottom border-primary rounded-top">
-                              <div class="row col-12 m-0 p-3 flex-wrap " >
-                                 <a class="col- col-sm-8 card-title text-primary text-uppercase p-0 font-weight-bold order-sm-1 order-1">Balanço 2018/2019</a>
-                                 <a href="#" class="col- col-sm-4 btn btn-primary p-1 order-sm-2 order-3" data-toggle="collapse" data-target="#lista2">Visualizar <i class="fas fa-caret-down"></i></a>
-                                 <p class="col-12 p-2 azul-escuro font-weight-bold order-sm-3 order-2">Abaixo documentos relativos a Balanço 2018/2019</p>
-                              </div>
-                              <hr class="text-primary">
-                              <div id="lista2" class="col-12 m-0 pr-5 collapse">
-                                 <ul class="col-12 m-0 list-group list-group-flush azul-escuro">
-                                    <li class="list-group-item p-0"><a class="azul-escuro d-block p-2 pl-4" href="arquivos/balanco/2018_2019/balanco-patrimonial-2019.pdf">Balanço Patrimonial dos Exercícios Findos em 31 de Dezembro de 2018 e 2019</a></li>
-                                    <li class="list-group-item p-0"><a class="azul-escuro d-block p-2 pl-4" href="arquivos/balanco/2018_2019/relatorio-de-administracao-2019.pdf">Relatório da Administração</a></li>
-                                    <li class="list-group-item p-0"><a class="azul-escuro d-block p-2 pl-4" href="arquivos/balanco/2018_2019/resultado-abrange-2019.pdf">Demonstração do Resultado Abrangente dos Exercícios Findos em 31 de Dezembro de 2018 e 2019</a></li>
-                                    <li class="list-group-item p-0"><a class="azul-escuro d-block p-2 pl-4" href="arquivos/balanco/2018_2019/demonstrativo-resultados-2019.pdf">Demonstração do Resultado dos Exercícios em 31 de Dezembro de 2018 e 2019</a></li>
-                                    <li class="list-group-item p-0"><a class="azul-escuro d-block p-2 pl-4" href="arquivos/balanco/2018_2019/dmpl-2019.pdf">Demonstração das Mutações do Patrimônio Líquido dos Exercícios Findos em 31 de Dezembro de 2018 e 2019</a></li>
-                                    <li class="list-group-item p-0"><a class="azul-escuro d-block p-2 pl-4" href="arquivos/balanco/2018_2019/fluxo-caixa-2019.pdf">Demonstração dos Fluxos de Caixa pelo Método Direto dos Exercícios findos em 31 de Dezembro de 2018 e 2019</a></li>
-                                    <li class="list-group-item p-0"><a class="azul-escuro d-block p-2 pl-4" href="arquivos/balanco/2018_2019/notas-explicativas-2019.pdf">Notas Explicativas às Demonstrações Contábeis do Exercício Findo em 31 de Dezembro de 2019</a></li>
-                                    <li class="list-group-item p-0"><a class="azul-escuro d-block p-2 pl-4" href="arquivos/balanco/2018_2019/relatorio-auditor-2019.pdf">Relatório do Auditor Independente sobre as Demonstrações Contábeis</a></li>
-                                 </ul>
-                              </div>
-                           </div>
-                           <!--/FIM BALANCO-->
-                           <!--COMECO BALNCO      (obs: a cada novo balanco trocar ID #lista+n° atual e data-target para o ID da lista atual)    -->            
-                           <div class="card-body m-0 mb-0 p-0 row align-items-center border-bottom border-primary rounded-top">
-                              <div class="row col-12 m-0 p-3 flex-wrap " >
-                                 <a class="col- col-sm-8 card-title text-primary text-uppercase p-0 font-weight-bold order-sm-1 order-1">Balanço 2017/2018</a>
-                                 <a href="#" class="col- col-sm-4 btn btn-primary p-1 order-sm-2 order-3" data-toggle="collapse" data-target="#lista1">Visualizar <i class="fas fa-caret-down"></i></a>
-                                 <p class="col-12 p-2 azul-escuro font-weight-bold order-sm-3 order-2">Abaixo documentos relativos a Balanço 2018/2019</p>
-                              </div>
-                              <hr class="text-primary">
-                              <div id="lista1" class="col-12 m-0 pr-5 collapse">
-                                 <ul class="col-12 m-0 list-group list-group-flush azul-escuro">
-                                    <li class="list-group-item p-0"><a target="_blank" class="azul-escuro d-block p-2 pl-4" href="arquivos/balanco/2017_2018/balanco-patrimonial-2018.pdf">Balanço Patrimonial dos Exercícios Findos em 31 de Dezembro de 2017 e 2018</a></li>
-                                    <li class="list-group-item p-0"><a target="_blank" class="azul-escuro d-block p-2 pl-4" href="arquivos/balanco/2017_2018/relatorio-de-administracao-2018.pdf">Comparação das Demonstrações Financeiras do CEAM 2017 e 2018</a></li>
-                                    <li class="list-group-item p-0"><a target="_blank" class="azul-escuro d-block p-2 pl-4" href="arquivos/balanco/2017_2018/resultado-abrange-2018.pdf">Demonstração do Resultado Abrangente dos Exercícios Findos em 31 de Dezembro de 2017 e 2018</a></li>
-                                    <li class="list-group-item p-0"><a target="_blank" class="azul-escuro d-block p-2 pl-4" href="arquivos/balanco/2017_2018/demonstrativo-resultados-2018.pdf">Demonstração do Resultado dos Exercícios em 31 de Dezembro de 2017 e 2018</a></li>
-                                    <li class="list-group-item p-0"><a target="_blank" class="azul-escuro d-block p-2 pl-4" href="arquivos/balanco/2017_2018/dmpl-2018.pdf">Demonstração das Mutações do Patrimônio Líquido dos Exercícios Findos em 31 de Dezembro de 2018 e 2017</a></li>
-                                    <li class="list-group-item p-0"><a target="_blank" class="azul-escuro d-block p-2 pl-4" href="arquivos/balanco/2017_2018/fluxo-caixa-2018.pdf">Demonstração dos Fluxos de Caixa pelo Método Direto dos Exercícios findos em 31 de Dezembro de 2017 e 2018</a></li>
-                                    <li class="list-group-item p-0"><a target="_blank" class="azul-escuro d-block p-2 pl-4" href="arquivos/balanco/2017_2018/notas-explicativas-2018.pdf">Notas Explicativas às Demonstrações Contábeis do Exercício Findo em 31 de Dezembro de 2018</a></li>
-                                    <li class="list-group-item p-0"><a target="_blank" class="azul-escuro d-block p-2 pl-4" href="arquivos/balanco/2017_2018/relatorio-do-auditor-independente-sobre-as-demonstracoes-contabeis.pdf">Relatório do Auditor Independente sobre as Demonstrações Contábeis</a></li>
-                                 </ul>
-                              </div>
-                           </div>
-                           <!--/FIM BALANCO-->
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div id="mvv" class="tab-pane fade ">
-                  <section class="mb-5">
-                     <!--MVV--> 
-                     <div class="container">
-                        <div class="row">
-                           <!--row cards--> 
-                           <a class="nav-link col-md-4">
-                              <div class="card bg-azul-escuro h-100">
-                                 <img class="card-img-top" src="images/mvv/missao.png">
-                                 <div class="card-body">
-                                    <h4 class="h4 text-center text-white"> Missão</h4>
-                                    <p class="card-text text-center text-white">
-                                       Preservar e melhorar a saúde da comunidade Itajubense e Região, no atendimento e responsabilidade social, contribuindo para a qualidade de vida.
-                                    </p>
-                                    <br>
-                                 </div>
-                              </div>
-                           </a>
-                           
-                           <a class="nav-link col-md-4">
-                              <div class="card bg-azul-escuro h-100">
-                                 <img class="card-img-top" src="images/mvv/visao.png">
-                                 <div class="card-body">
-                                    <h4 class="h5 text-center text-center text-white">Visão</h4>
-                                    <p class="card-text text-center text-white ">
-                                       Ser líder e inovadora na assistência médico hospitalar, referência na resolutividade e reconhecida pelo atendimento humanizado.
-                                    </p>
-                                 </div>
-                              </div>
-                           </a>
-                           <a class="nav-link col-md-4">
-                              <div class="card bg-azul-escuro h-100">
-                                 <img class="card-img-top" src="images/mvv/valores.png">
-                                 <div class="card-body">
-                                    <h4 class="h4 text-center text-center text-white"> Valores</h4>
-                                    <ul class=" p-2 card-text text-center text-white list-unstyled">
-                                       <li>Valorização da vida</li>
-                                       <li>Prevenção da saúde</li>
-                                       <li>Responsabilidade social</li>
-                                       <li>Ética</li>
-                                       <li>Qualidade</li>
-                                       <li>Comprometimento</li>
-                                       <li>Integridade</li>
-                                       <li>Norteiam as ativades e os colaboradores</li>
-                                    </ul>
-                                 </div>
-                              </div>
-                           </a>
-                        </div>
-                        <!--/row cards-->
-                     </div>
-                  </section>
-                  <!--/ MVV-->
-               </div>
+            
+            
             </div>
             <!--/conteudos-->
          </div>
