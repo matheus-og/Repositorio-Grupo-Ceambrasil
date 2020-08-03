@@ -23,6 +23,7 @@ html, body {
 
 body {
   font-family: 'Open Sans', sans-serif;
+  height: 100%;
 }
 
 .clear{
@@ -279,21 +280,20 @@ p {
 
 
 .card1 {
-		background: rgb(0,86,255);
-background: -moz-linear-gradient(90deg, rgba(0,86,255,1) 0%, rgba(0,151,255,1) 43%, rgba(0,181,255,1) 100%);
-background: -webkit-linear-gradient(90deg, rgba(0,86,255,1) 0%, rgba(0,151,255,1) 43%, rgba(0,181,255,1) 100%);
-background: linear-gradient(90deg, rgba(0,86,255,1) 0%, rgba(0,151,255,1) 43%, rgba(0,181,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0056ff",endColorstr="#00b5ff",GradientType=1);
-	
+		background: rgb(0,121,255);
+background: -moz-linear-gradient(90deg, rgba(0,121,255,1) 0%, rgba(0,146,255,1) 43%, rgba(0,194,255,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(0,121,255,1) 0%, rgba(0,146,255,1) 43%, rgba(0,194,255,1) 100%);
+background: linear-gradient(90deg, rgba(0,121,255,1) 0%, rgba(0,146,255,1) 43%, rgba(0,194,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0079ff",endColorstr="#00c2ff",GradientType=1);
 	}	
 
-.card2{
-	background: rgb(0,198,255);
-background: -moz-linear-gradient(90deg, rgba(0,198,255,1) 0%, rgba(0,151,255,1) 50%, rgba(0,86,255,1) 100%);
-background: -webkit-linear-gradient(90deg, rgba(0,198,255,1) 0%, rgba(0,151,255,1) 50%, rgba(0,86,255,1) 100%);
-background: linear-gradient(90deg, rgba(0,198,255,1) 0%, rgba(0,151,255,1) 50%, rgba(0,86,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00c6ff",endColorstr="#0056ff",GradientType=1);
-	
+.card2
+{
+	background: rgb(0,194,255);
+background: -moz-linear-gradient(90deg, rgba(0,194,255,1) 0%, rgba(0,146,255,1) 43%, rgba(0,121,255,1) 100%);
+background: -webkit-linear-gradient(90deg, rgba(0,194,255,1) 0%, rgba(0,146,255,1) 43%, rgba(0,121,255,1) 100%);
+background: linear-gradient(90deg, rgba(0,194,255,1) 0%, rgba(0,146,255,1) 43%, rgba(0,121,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00c2ff",endColorstr="#0079ff",GradientType=1);
 }
 
 .card1:hover{
