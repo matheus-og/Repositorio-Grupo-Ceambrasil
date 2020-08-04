@@ -18,7 +18,7 @@
       <title>Contato</title>
    </head>
    <body id="body">
-            <!--HEADER-->
+<!--HEADER-->
       <header class="sticky-top shadow bg-white rounded">
          <!-- MENU--> 
          <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -38,13 +38,13 @@
                         <a class="nav-link azul-escuro " href="institucional.html">Institucional</a>
                      </li>
                      <li class="nav-item text-uppercase">
-                        <a class="nav-link azul-escuro" href="informativo.html">Informativo</a>
+                        <a class="nav-link azul-escuro" href="planos_atendidos.html">Planos Atendidos</a>
                      </li>
                      <li class="nav-item text-uppercase">
-                        <a class="nav-link azul-escuro" href="planos.php">Planos</a>
+                        <a class="nav-link azul-escuro" href="institucional.html#especialidades">Especialidades</a>
                      </li>
                      <li class="nav-item text-uppercase">
-                        <a class="nav-link text-primary" href="contato.php"><span class="sr-only">(Página atual)</span>Contato</a>
+                        <a class="nav-link  text-primary" href="contato.php"><span class="sr-only">(Página atual)</span>Contato</a>
                      </li>
                       <li class="nav-item text-uppercase">
                         <a class="nav-link azul-escuro" href="trabalhe_conosco.php">Trabalhe Conosco</a>
@@ -54,10 +54,10 @@
                </div>
             </div>
             <!--fim container--> 
-         </nav>
-         
+         </nav>         
       </header>
       <!--HEADER-->
+      
 
       <!--TEXTO ANIMADO-->      
       <section class="bg-primary mb-5">

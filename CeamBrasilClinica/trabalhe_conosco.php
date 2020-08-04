@@ -18,7 +18,7 @@
       <title>Contato</title>
    </head>
    <body id="body">
-            <!--HEADER-->
+<!--HEADER-->
       <header class="sticky-top shadow bg-white rounded">
          <!-- MENU--> 
          <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -32,33 +32,32 @@
                <div class="collapse navbar-collapse font-weight-bold" id="navbarNav">
                   <ul class="navbar-nav ml-auto">
                      <li class="nav-item active text-uppercase">
-                        <a class="nav-link azul-escuro " href="index.html">Home </a>
+                        <a class="nav-link azul-escuro " href="index.html">Home <span class="sr-only">(Página atual)</span></a>
                      </li>
                      <li class="nav-item text-uppercase">
                         <a class="nav-link azul-escuro " href="institucional.html">Institucional</a>
                      </li>
                      <li class="nav-item text-uppercase">
-                        <a class="nav-link azul-escuro" href="informativo.html">Informativo</a>
+                        <a class="nav-link azul-escuro" href="planos_atendidos.html">Planos Atendidos</a>
                      </li>
                      <li class="nav-item text-uppercase">
-                        <a class="nav-link azul-escuro" href="planos.php">Planos</a>
+                        <a class="nav-link azul-escuro" href="institucional.html#especialidades">Especialidades</a>
                      </li>
                      <li class="nav-item text-uppercase">
                         <a class="nav-link azul-escuro" href="contato.php">Contato</a>
                      </li>
                       <li class="nav-item text-uppercase">
-                        <a class="nav-link text-primary" href="trabalhe_conosco.php"><span class="sr-only">(Página atual)</span>Trabalhe Conosco</a>
+                        <a class="nav-link  text-primary" href="trabalhe_conosco.php">Trabalhe Conosco</a>
                      </li>
                      
                   </ul>
                </div>
             </div>
             <!--fim container--> 
-         </nav>
-         
+         </nav>         
       </header>
       <!--HEADER-->
-
+      
       <!--TEXTO ANIMADO-->      
       <section class="bg-primary mb-5">
          <div class="container">
