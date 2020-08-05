@@ -260,3 +260,13 @@ p {
 		height: 50px;
 	}
 }
+
+
+#lista-planos-atendidos .card {
+	padding: 0;
+	margin: 0.3em;
+}
+
+#lista-planos-atendidos > div {
+	padding: 0;
+}
