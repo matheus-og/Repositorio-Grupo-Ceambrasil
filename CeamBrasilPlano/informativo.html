@@ -113,10 +113,21 @@
                <!--conteudos-->
                <!--ABA PRINCIPAL-->
                <div id="principal" class="tab-pane fade active show">
-                  <div class="d-flex flex-wrap">
-                     <div class="col-12 p-0 m-0">
-                        <!-- Card -->
-                        <div class="card mb-0  p-2">
+
+                           <!--navegacao submenu-->                     
+                  <ul class="nav nav-pills m-3" id="myTab" role="tablist">                     
+                     <li class="nav-item ">
+                        <a class="nav-link active" id="abramge-tab" data-toggle="tab" href="#abramge" role="tab" aria-controls="abramge"
+                           aria-selected="false"><i class="far fa-file-alt mr-2"></i>ABRAMGE</a>
+                     </li>               
+                  </ul>
+                  <!--navegacao submenu-->
+
+                     <div class="tab-content" id="myTabContent">
+                    <!--RN309-->
+                     <div class="tab-pane fade m-0 p-2 show active" id="abramge" role="tabpanel" aria-labelledby="abramge-tab">
+                          <!-- Card -->
+                        <div class=" mb-0  p-2">
                            <div class="card-body row m-0 text-center text-sm-left">
                               <img class=" col-10 col-sm-8 col-md-6 col-lg-4 card-img-top w-25" src="images/logo-abramge.png" alt="Card image cap">                       
                               <h1 class="col-12 p-4 card-text h5 azul-escuro">Empresas Participantes do atendimento nacional ABRAMGE</h1>                        
@@ -125,7 +136,10 @@
                         </div>
                         <!-- Card -->
                      </div>
+                     <!--/RN309-->
                   </div>
+                  
+                
                </div>
                <!--/ FIM ABA PRINCIPAL-->
                <!--ABA BENEFICIARIO-->
@@ -133,20 +147,28 @@
                   <!--navegacao submenu-->                     
                   <ul class="nav nav-pills m-3" id="myTab" role="tablist">                     
                      <li class="nav-item ">
-                        <a class="nav-link active" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile"
-                           aria-selected="false"><i class="far fa-file-alt mr-3"></i>RN309</a>
+                        <a class="nav-link active" id="rn309-tab" data-toggle="tab" href="#rn309" role="tab" aria-controls="rn309"
+                           aria-selected="false"><i class="far fa-file-alt"></i>RN309</a>
+                     </li>
+                     <li class="nav-item ">
+                        <a class="nav-link" id="rn389-tab" data-toggle="tab" href="#rn389" role="tab" aria-controls="rn389"
+                           aria-selected="false"><i class="far fa-file-alt"></i>RN389</a>
+                     </li>
+                     <li class="nav-item ">
+                        <a class="nav-link" id="rn412-tab" data-toggle="tab" href="#rn412" role="tab" aria-controls="rn412"
+                           aria-selected="false"><i class="far fa-file-alt"></i>RN412</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact"
-                           aria-selected="false"><i class="far fa-question-circle mr-3"></i>Dúvidas Frequentes</a>
+                        <a class="nav-link" id="duvidas-tab" data-toggle="tab" href="#duvidas" role="tab" aria-controls="duvidas"
+                           aria-selected="false"><i class="far fa-question-circle"></i>Dúvidas Frequentes</a>
                      </li>
                   </ul>
                   <!--navegacao submenu-->
                   <div class="tab-content" id="myTabContent">
-                    
-                     <div class="tab-pane fade m-0 p-2 show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                    <!--RN309-->
+                     <div class="tab-pane fade m-0 p-2 show active" id="rn309" role="tabpanel" aria-labelledby="rn309-tab">
                         <h1 class="text-center h4 col azul-escuro m-o p-0 mt-3 col-12">Informações sobre a RN 309</h1>
-                        <div class="azul-escuro p-2" id="rnlink">
+                        <div class="azul-escuro p-2 rn" id="rnlink">
                            <p class="text-secondary">A Agência Nacional de Saúde Suplementar (ANS) publicou em 24 de outubro de 2012 a Resolução Normativa n.º 309, que dispõe sobre o agrupamento de contratos de planos privados de assistência à saúde coletivos empresariais e por adesão, para fins de cálculo e aplicação de reajuste.</p>
                            <p class="mb-5 text-secondary">Entenda abaixo quais contratos estão envolvidos, e como será o processo de adequação e a divulgação dos índices de reajuste:</p>
                            <h5>1 – Quais contratos serão agrupados?</h5>
@@ -172,9 +194,61 @@
                            <a href="arquivos/rn309/reajuste2020.pdf" class="col col-md-4 btn btn-primary p-2" target="_blank">Contratos que sofreram o reajuste.</a>
                         </div>
                      </div>
-                     <div class="tab-pane fade m-0 p-2" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                     <!--/RN309-->
+
+                      <!--RN389-->
+                     <div class="tab-pane fade m-0 p-2" id="rn389" role="tabpanel" aria-labelledby="rn389-tab">
+                        <h1 class="text-center h4 col azul-escuro m-o p-0 mt-3 col-12">Informações sobre a RN 389</h1>
+                        <div class="azul-escuro p-2 rn" id="rnlink">
+                           <p>A Resolução Normativa nº 389 dispõe sobre a transparência das informações no âmbito da saúde suplementar, estabelece a obrigatoriedade da disponibilização do conteúdo mínimo obrigatório de informações referentes aos planos privados de saúde no Brasil, revoga a Resolução Normativa n° 360 de 3 de dezembro de 2014, e o parágrafo único do art. 5º, da RN nº 190 de 30 de abril de 2009, e dá outras providências.</p>
+
+                           <p>As operadoras são obrigadas a disponibilizar, na área aberta de seu portal na internet, as informações mínimas acerca dos diferentes tipos de contratação de plano privado de saúde, conforme o Anexo I desta Resolução, sem prejuízo do disposto em outros normativos, inclusive o disposto na Instrução Normativa – IN nº 20, de 29 de setembro de 2009, que dispõe sobre os instrumentos de orientação aos beneficiários, previstos no artigo 24 da Resolução Normativa – RN nº 195, de 14 de julho 2009, da Diretoria de Normas e Habilitação dos Produtos.</p> 
+
+                           <p><a href="http://www.ans.gov.br/component/legislacao/?view=legislacao&task=TextoLei&format=raw&id=MzEzNw==">Clique aqui e acesse a RN 389.</a><br>
+
+                           <p><span class="font-weight-bold">Saiba mais sobre o PIN-SS</span> <br>
+                           ​​​A Resolução Normativa nº 389 dispõe sobre a transparência das informações no âmbito da saúde suplementar, e estabelece que os portais das operadoras deverão conter áreas restritas destinada aos beneficiários e às pessoas jurídicas contratantes.</p>
+                           
+                           <p>
+                              A área que contem informações referentes ao beneficiário, que se nomeia, Portal de Informações do Beneficiário da Saúde Suplementar (PIN-SS) é um repositório de informações individualizadas relativas ao beneficiário, titular ou dependente do plano privado de saúde, em área restrita do portal da operadora. Nele é possível ter acesso ao componente cadastral Portal de Identificação de Saúde Suplementar onde é possível consultar dentre outras informações o Número do Cartão Nacional de Saúde (CNS). E o Componente Utilização dos Serviços, que deve conter o detalhamento dos exames, consultas e outros procedimentos realizados pelo consumidor.​​
+                           </p>
+
+                        </div>
+                     </div>
+                     <!--/RN309-->
+
+                      <!--RN412-->
+                     <div class="tab-pane fade m-0 p-2" id="rn412" role="tabpanel" aria-labelledby="rn412-tab">
+                        <h1 class="text-center h4 col azul-escuro m-o p-0 mt-3 col-12">Informações sobre a RN 412</h1>
+                        <div class="azul-escuro p-2 rn" id="rnlink">
+                           <div class="">
+                              <p>A Agência Nacional de Saúde Suplementar (ANS) elaborou esta cartilha para explicar como você deve proceder para solicitar o cancelamento do plano de saúde individual ou familiar ou a exclusão do contrato de plano coletivo empresarial ou por adesão. Para isso, é preciso saber o tipo de contratação do seu plano de saúde:</p>
+                           
+                           
+                              <ul>
+                                 <ol>Individual ou Familiar: Você procura a operadora para contratar o plano.</ol>
+                                 <ol>Coletivo Empresarial: Sua empresa contrata o plano para você.</ol>
+                                 <ol>Coletivo por Adesão: Sua associação profissional ou sindicato contrata o plano para você.</ol>
+                              </ul>
+                              
+                           
+                           
+                           </div>
+                           
+                           <div class="d-flex justify-content-center row">
+                              <p class="pt-4 col-12">Como solicitar o cancelamento do seu contrato individual ou familiar ou a exclusão de contrato coletivo empresarial ou por adesão:</p>
+                              <img src="images/resolucoes/rn421.png" class="img-fluid d-none d-lg-block col-7">
+                           </div>
+
+
+                        </div>
+                     </div>
+                     <!--/RN309-->
+                     
+                     <!--DUVIDAS-->
+                     <div class="tab-pane fade m-0 p-2" id="duvidas" role="tabpanel" aria-labelledby="duvidas-tab">
                         <h1 class="text-center h4 col azul-escuro m-o p-0 mt-3 col-12">Dúvidas Frequentes</h1>
-                        <div class="azul-escuro p-3">
+                        <div class="azul-escuro p-3 rn">
                            <h5>O que é uma OPERADORA de Planos de Saúde?</h5>
                            <p class="mb-4 text-secondary">É toda empresa que presta assistência médica, devendo estar registrada na ANS (Agência Nacional de Saúde), órgão federal que regulamenta e fiscaliza o setor. A Unimed Catalão está devidamente registrada na ANS, sob o no - 32456-6. Os planos regulamentados oferecem maior cobertura e segurança na utilização.</p>
                            <h5>Qual a diferença entre Plano NÃO REGULAMENTADO e Plano REGULAMENTADO?</h5>
@@ -227,6 +301,8 @@
                            <p class="mb-4 text-secondary">Apenas o titular pode solicitar a alteração dos seus dados cadastrais. Para isso, deve procurar o Setor de Cadastro, levando o comprovante do novo endereço e documentos pessoais.</p>
                         </div>
                      </div>
+                     <!--/DUVIDAS-->
+
                   </div>
                </div>
                <!--/ FIM ABA BENEFICIARIO-->
