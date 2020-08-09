@@ -18,7 +18,7 @@
       <title>Contato</title>
    </head>
    <body id="body">
-<!--HEADER-->
+      <!--HEADER-->
       <header class="sticky-top shadow bg-white rounded">
          <!-- MENU--> 
          <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -32,19 +32,16 @@
                <div class="collapse navbar-collapse font-weight-bold" id="navbarNav">
                   <ul class="navbar-nav ml-auto">
                      <li class="nav-item active text-uppercase">
-                        <a class="nav-link azul-escuro " href="index.html">Home </a>
+                        <a class="nav-link azul-escuro " href="index.html">Home</a>
                      </li>
                      <li class="nav-item text-uppercase">
                         <a class="nav-link azul-escuro " href="institucional.html">Institucional</a>
                      </li>
                      <li class="nav-item text-uppercase">
                         <a class="nav-link azul-escuro" href="planos_atendidos.html">Planos Atendidos</a>
-                     </li>
+                     </li>                   
                      <li class="nav-item text-uppercase">
-                        <a class="nav-link azul-escuro" href="institucional.html#especialidades">Especialidades</a>
-                     </li>
-                     <li class="nav-item text-uppercase">
-                        <a class="nav-link  text-primary" href="contato.php"><span class="sr-only">(Página atual)</span>Contato</a>
+                        <a class="nav-link text-primary" href="contato.php"><span class="sr-only">(Página atual)</span>Contato</a>
                      </li>
                       <li class="nav-item text-uppercase">
                         <a class="nav-link azul-escuro" href="trabalhe_conosco.php">Trabalhe Conosco</a>
@@ -54,7 +51,8 @@
                </div>
             </div>
             <!--fim container--> 
-         </nav>         
+         </nav>
+         
       </header>
       <!--HEADER-->
       
@@ -63,7 +61,7 @@
       <section class="bg-primary mb-5">
          <div class="container">
             <div class="row py-5">
-               <div id="banner-animado" href="" class="col h5 typewrite bg-primary ml-5 text-white altura-banner" data-period="2000" data-type='[ "Contato.", "CeamBrasil.", "Escolha o Destino e Deixe as Preocupações Conosco." ]'> </div>
+               <div id="banner-animado" href="" class="typewrite bg-primary ml-5 text-white" data-period="2000" data-type='[ "Contato.", "CeamBrasil.", "Escolha o Destino e Deixe as Preocupações Conosco." ]'> </div>
             </div>
          </div>
       </section>
@@ -191,7 +189,7 @@
          </div>
       </footer>
       <!--/rodape-->
-      
+
       <!-- JavaScript (Opcional) -->
       <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

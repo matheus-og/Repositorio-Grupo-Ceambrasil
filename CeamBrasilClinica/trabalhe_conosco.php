@@ -18,7 +18,7 @@
       <title>Contato</title>
    </head>
    <body id="body">
-<!--HEADER-->
+      <!--HEADER-->
       <header class="sticky-top shadow bg-white rounded">
          <!-- MENU--> 
          <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -32,29 +32,27 @@
                <div class="collapse navbar-collapse font-weight-bold" id="navbarNav">
                   <ul class="navbar-nav ml-auto">
                      <li class="nav-item active text-uppercase">
-                        <a class="nav-link azul-escuro " href="index.html">Home <span class="sr-only">(Página atual)</span></a>
+                        <a class="nav-link azul-escuro" href="index.html">Home</a>
                      </li>
                      <li class="nav-item text-uppercase">
                         <a class="nav-link azul-escuro " href="institucional.html">Institucional</a>
                      </li>
                      <li class="nav-item text-uppercase">
                         <a class="nav-link azul-escuro" href="planos_atendidos.html">Planos Atendidos</a>
-                     </li>
-                     <li class="nav-item text-uppercase">
-                        <a class="nav-link azul-escuro" href="institucional.html#especialidades">Especialidades</a>
-                     </li>
+                     </li>                   
                      <li class="nav-item text-uppercase">
                         <a class="nav-link azul-escuro" href="contato.php">Contato</a>
                      </li>
                       <li class="nav-item text-uppercase">
-                        <a class="nav-link  text-primary" href="trabalhe_conosco.php">Trabalhe Conosco</a>
+                        <a class="nav-link  text-primary" href="trabalhe_conosco.php"><span class="sr-only">(Página atual)</span>Trabalhe Conosco</a>
                      </li>
                      
                   </ul>
                </div>
             </div>
             <!--fim container--> 
-         </nav>         
+         </nav>
+         
       </header>
       <!--HEADER-->
       
@@ -62,11 +60,11 @@
       <section class="bg-primary mb-5">
          <div class="container">
             <div class="row py-5">
-               <div id="banner-animado" href="" class="col h5 typewrite bg-primary ml-5 text-white altura-banner" data-period="2000" data-type='[ "Trabalhe Conosco.", "CeamBrasil.", "Escolha o Destino e Deixe as Preocupações Conosco." ]'> </div>
+               <div id="banner-animado" href="" class="typewrite bg-primary ml-5 text-white" data-period="2000" data-type='[ "Trabalhe Conosco.", "CeamBrasil.", "Escolha o Destino e Deixe as Preocupações Conosco." ]'> </div>
             </div>
          </div>
       </section>
-      <!--/TEXTO ANIMADO--> 
+      <!--/TEXTO ANIMADO-->  
       <section class="container ">
          <div class="row">
             <!-- formulario de contato -->
