@@ -276,15 +276,17 @@ p {
 	}
 }
 
-
-
+.card1:hover, .card2:hover{
+	    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
 
 .card1 {
-		background: rgb(0,121,255);
+background: rgb(0,121,255);
 background: -moz-linear-gradient(90deg, rgba(0,121,255,1) 0%, rgba(0,146,255,1) 43%, rgba(0,194,255,1) 100%);
 background: -webkit-linear-gradient(90deg, rgba(0,121,255,1) 0%, rgba(0,146,255,1) 43%, rgba(0,194,255,1) 100%);
 background: linear-gradient(90deg, rgba(0,121,255,1) 0%, rgba(0,146,255,1) 43%, rgba(0,194,255,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#0079ff",endColorstr="#00c2ff",GradientType=1);
+
 	}	
 
 .card2
@@ -311,3 +313,4 @@ background: -webkit-linear-gradient(90deg, rgba(0,155,255,1) 0%, rgba(0,99,255,1
 background: linear-gradient(90deg, rgba(0,155,255,1) 0%, rgba(0,99,255,1) 43%, rgba(0,48,255,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#009bff",endColorstr="#0030ff",GradientType=1);
 }
+
