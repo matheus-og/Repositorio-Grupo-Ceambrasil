@@ -354,9 +354,9 @@
                               <p class="text-center text-white h5"><span class="d-block py-2">Titulares, Dependentes e Agregados</span></p>
                            </li>
 
-                           <li class="list-group-item m-0 pb-1">
+                           <li class="list-group-item m-0 pb-0">
                             <div class="conteudo-li-cotacao ml-auto ">
-                               <div class="float-left col-4 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-2">
+                               <div class="float-left col-4 col-md-5 m-0 p-0 pt-md-2 d-inline pr-2">
                                     <p class="h5 text-center">00 - 18 anos</p>
                                  </div>
 
@@ -374,7 +374,7 @@
                            </li>
 
 
-                           <li class="list-group-item m-0 pb-1">
+                           <li class="list-group-item m-0 pb-0">
                             <div class="conteudo-li-cotacao ml-auto ">
                                <div class="float-left col-4 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
                                  <p class="h5 text-center">19 - 23 anos</p>
@@ -394,7 +394,7 @@
                            </li>
 
 
-                           <li class="list-group-item m-0 pb-1">
+                           <li class="list-group-item m-0 pb-0">
                               <div class="conteudo-li-cotacao ml-auto">
                                <div class="float-left col-4 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
                                  <p class="h5 text-center">24 - 28 anos</p>
@@ -411,7 +411,7 @@
                            </div>
                            </li>
 
-                           <li class="list-group-item m-0 pb-1">
+                           <li class="list-group-item m-0 pb-0">
 
                               <div class="conteudo-li-cotacao ml-auto">
                                <div class="float-left col-4 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
@@ -429,7 +429,7 @@
                            </div>
                            </li>
 
-                           <li class="list-group-item m-0 pb-1">
+                           <li class="list-group-item m-0 pb-0">
                               <div class="conteudo-li-cotacao ml-auto">
                                <div class="float-left col-4 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
                                  <p class="h5 text-center">34 - 38 anos</p>
@@ -446,7 +446,7 @@
                            </div>
                            </li>
 
-                           <li class="list-group-item m-0 pb-1">
+                           <li class="list-group-item m-0 pb-0">
                               <div class="conteudo-li-cotacao ml-auto">
                                <div class="float-left col-4 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
                                  <p class="h5 text-center">39 - 43 anos</p>
@@ -463,7 +463,7 @@
                            </div>
                            </li>
 
-                           <li class="list-group-item m-0 pb-1">
+                           <li class="list-group-item m-0 pb-0">
                               <div class="conteudo-li-cotacao ml-auto">
                                <div class="float-left col-4 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
                                  <p class="h5 text-center">44 - 48 anos</p>
@@ -480,7 +480,7 @@
                            </div>
                            </li>
 
-                           <li class="list-group-item m-0 pb-1">
+                           <li class="list-group-item m-0 pb-0">
                               <div class="conteudo-li-cotacao ml-auto">
                                <div class="float-left col-4 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
                                  <p class="h5 text-center">49 - 53 anos</p>
@@ -497,7 +497,7 @@
                            </div>
                            </li>
 
-                           <li class="list-group-item m-0 pb-1">
+                           <li class="list-group-item m-0 pb-0">
                               <div class="conteudo-li-cotacao ml-auto">
                                <div class="float-left col-4 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
                                  <p class="h5 text-center">Acima de 59 anos</p>
