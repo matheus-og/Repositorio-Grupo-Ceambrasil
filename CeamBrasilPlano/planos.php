@@ -529,7 +529,7 @@
          </div>
       </section>
       <!--/COTAÇÃO-->
-      <footer class="bg-dark text-white">
+        <footer class="bg-dark text-white">
          <div class="container">
             <div class="row borda-bottom-branca py-3 ">
                <div class="col-12 col-md-6">
@@ -538,14 +538,14 @@
                <div class="col-12 col-md-2 ">          
                </div>
                <div class="col-12 col-md-4 text-center">
-                  <a href="" class="text-white"><i class="h3 fab fa-instagram mr-3"></i></a>
-                  <a href="" class="text-white"><i class="h3 fab fa-facebook-f"></i> </a>         
+                  <a href="https://www.instagram.com/planoceam" target="_blank" class="text-white"><i class="h3 fab fa-instagram mr-3"></i></a>
+                  <a href="http://fb.me/ceambrasil" target="_blank" class="text-white"><i class="h3 fab fa-facebook-f"></i> </a>         
                </div>
             </div>
             <div class="row ">
                <div class="col-12 col-md-4 bg-preto-secundario pt-1 pb-4  ">
                   <span class="h5 font-weight-bold text-white text-uppercase">Endereço</span>
-                 <p>
+                  <p>
                      <a href="https://goo.gl/maps/roEmKh9SKAQtjJEK6" class="text-white  pt-2 mb-3" target="_blank">
                         <i class="fas fa-map-marker-alt mr-2 "></i>
                         Praça Doutor Carlos Victor, n° 01 <br>
@@ -553,18 +553,18 @@
                         CEP: 37501-155
                      </a>
                   </p>
-                  <p class="text-white">
-                     <i class="fas fa-phone-alt mr-2 mb-3" ></i>
-                     (35) 3629-8000
+                 <p class="text-white mt-3">
+                     <i class="fas fa-phone-alt mr-2 mb-3"></i>
+                     <a href="tel:35362980000" class="text-white">(35) 3629-8000</a>
                   </p>
                   <span class="h5 font-weight-bold text-white text-uppercase">Sites</span><br>
-                  <a href="" class="text-white mt-3">
+                  <a href="http://www.clinicaceam.com.br/" target="_blank" class="text-white mt-3">
                   <i class="fas fa-globe mr-2 mb-3"></i>
-                  www.linkclinica.com.br
+                  Clinica Ceam
                   </a><br>  
-                  <a href="" class="text-white mt-3">
+                  <a href="http://grupoceam.com.br/" target="_blank" class="text-white mt-3">
                   <i class="fas fa-globe mr-2"></i>
-                  www.linkgrupo.com.br
+                  Grupo Ceam
                   </a>   
                </div>
                <div class="col-12 col-md-4  pt-1 pb-4">
@@ -578,14 +578,11 @@
                            <a class="nav-link text-white" href="institucional.html">Institucional</a>
                         </li>
                         <li class="nav-item ">
-                           <a class="nav-link text-white" href="#">Informativo</a>
+                           <a class="nav-link text-white" href="informativo.html">Informativo</a>
                         </li>
                         <li class="nav-item ">
-                           <a class="nav-link text-white" href="#">Planos</a>
-                        </li>
-                        <li class="nav-item ">
-                           <a class="nav-link text-white" href="#">Contato</a>
-                        </li>
+                           <a class="nav-link text-white" href="planos.php">Planos</a>
+                        </li>                        
                      </ul>
                   </div>
                </div>
@@ -593,10 +590,10 @@
                   <span class="h5 font-weight-bold text-white text-uppercase">Contatos</span>
                   <ul class="navbar-nav ml-auto">
                      <li class="nav-item active ">
-                        <a class="nav-link text-white" href="#">Trabalhe conosco</a>
+                        <a class="nav-link text-white" href="trabalhe_conosco.php">Trabalhe conosco</a>
                      </li>
                      <li class="nav-item ">
-                        <a class="nav-link text-white" href="#">Enviar mensagem</a>
+                        <a class="nav-link text-white" href="contato.php">Enviar mensagem</a>
                      </li>
                   </ul>
                </div>
@@ -617,7 +614,7 @@
                <div class="col-6 col-md-4  d-flex justify-content-center ">
                   <div class="flex-item mt-4 ">
                      <br>
-                     <p class="text-white">CNPJ 0000.000000.0000.000</p>
+                     <p class="text-white">CNPJ 18.987.107/0001-30</p>
                   </div>
                </div>
                <div class="col-6 col-md-4 d-flex justify-content-center">
