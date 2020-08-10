@@ -303,3 +303,14 @@ p {
 .rn img {
 	margin: 0 auto; 
 }
+
+
+.number-spinner, .number-spinner>ul>li {
+	margin: 0!important;
+	padding: 0!important;
+}
+
+.list-group-item {
+	margin: 0!important;
+	padding: 0.3em 0!important;
+}

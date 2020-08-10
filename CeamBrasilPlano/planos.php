@@ -285,10 +285,10 @@
       <!--COTAÇÃO--> 
       <section class="my-5" id="cotacao">
          <div class="container">
-            <div class="row">
+            <div class="row p-0 m-0">
                <h2 class="col-12 my-md-3">Faça a sua cotação</h2>
-               <div class="col">
-                  <form class="row col" action="processa_envio.php" method="post">
+               <div class="col p-0 m-0">
+                  <form class="row col p-0 m-0" action="processa_envio.php" method="post">
                      <!--DADOS PESSOAIS-->
                      <div class="col-12 order-1 col-md-6 order-md-2 m-0">
                         <div class="input-group my-2 my-md-5 "></div>
@@ -345,8 +345,8 @@
                      </div><!--/DADOS PESSOAIS-->
 
                      <!--COTAÇÃO-->
-                     <div class="col-12 col-md-6 col-lg-5 order-2 order-md-1 m-0">
-                        <ul class="list-group" id="lista-cotacao">
+                     <div class="col-12 col-md-6 col-lg-5 order-2 order-md-1 p-0 m-0">
+                        <ul class="list-group p-0 m-0" id="lista-cotacao">
 
 
                            <li class="list-group-item active text-center p-1">
@@ -356,11 +356,11 @@
 
                            <li class="list-group-item m-0 pb-0">
                             <div class="conteudo-li-cotacao ml-auto ">
-                               <div class="float-left col-4 col-md-5 m-0 p-0 pt-md-2 d-inline pr-2">
+                               <div class="float-left col-6 col-md-5 m-0 p-0 pt-md-2 d-inline pr-2">
                                     <p class="h5 text-center">00 - 18 anos</p>
                                  </div>
 
-                                 <div class="input-group mb-3 number-spinner col-8 col-md-5 m-0 pt-2 p-md-0 ">
+                                 <div class="input-group mb-3 number-spinner col-6 col-md-5 m-0 pt-2 p-md-0 ">
                                     <div class="input-group-prepend m-0">
                                        <button class="btn btn-info btn-sm m-0" data-dir="dwn" type="button"><i class="fas fa-minus"></i></button>
                                     </div>
@@ -376,11 +376,11 @@
 
                            <li class="list-group-item m-0 pb-0">
                             <div class="conteudo-li-cotacao ml-auto ">
-                               <div class="float-left col-4 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
+                               <div class="float-left col-6 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
                                  <p class="h5 text-center">19 - 23 anos</p>
                               </div>
 
-                              <div class="input-group mb-3 number-spinner col-8 col-md-5 m-0 pt-2 p-md-0 ">
+                              <div class="input-group mb-3 number-spinner col-6 col-md-5 m-0 pt-2 p-md-0 ">
                                  <div class="input-group-prepend m-0">
                                     <button class="btn btn-info btn-sm m-0" data-dir="dwn" type="button"><i class="fas fa-minus"></i></button>
                                  </div>
@@ -396,10 +396,10 @@
 
                            <li class="list-group-item m-0 pb-0">
                               <div class="conteudo-li-cotacao ml-auto">
-                               <div class="float-left col-4 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
+                               <div class="float-left col-6 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
                                  <p class="h5 text-center">24 - 28 anos</p>
                               </div>
-                              <div class="input-group mb-3 number-spinner col-8 col-md-5 m-0 pt-2 p-md-0">
+                              <div class="input-group mb-3 number-spinner col-6 col-md-5 m-0 pt-2 p-md-0">
                                  <div class="input-group-prepend m-0">
                                     <button class="btn btn-info btn-sm m-0" data-dir="dwn" type="button"><i class="fas fa-minus"></i></button>
                                  </div>
@@ -414,10 +414,10 @@
                            <li class="list-group-item m-0 pb-0">
 
                               <div class="conteudo-li-cotacao ml-auto">
-                               <div class="float-left col-4 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
+                               <div class="float-left col-6 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
                                  <p class="h5 text-center">29 - 33 anos</p>
                               </div>
-                              <div class="input-group mb-3 number-spinner col-8 col-md-5 m-0 pt-2 p-md-0">
+                              <div class="input-group mb-3 number-spinner col-6 col-md-5 m-0 pt-2 p-md-0">
                                  <div class="input-group-prepend m-0">
                                     <button class="btn btn-info btn-sm m-0" data-dir="dwn" type="button"><i class="fas fa-minus"></i></button>
                                  </div>
@@ -431,10 +431,10 @@
 
                            <li class="list-group-item m-0 pb-0">
                               <div class="conteudo-li-cotacao ml-auto">
-                               <div class="float-left col-4 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
+                               <div class="float-left col-6 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
                                  <p class="h5 text-center">34 - 38 anos</p>
                               </div>
-                              <div class="input-group mb-3 number-spinner col-8 col-md-5 m-0 pt-2 p-md-0">
+                              <div class="input-group mb-3 number-spinner col-6 col-md-5 m-0 pt-2 p-md-0">
                                  <div class="input-group-prepend m-0">
                                     <button class="btn btn-info btn-sm m-0" data-dir="dwn" type="button"><i class="fas fa-minus"></i></button>
                                  </div>
@@ -448,10 +448,10 @@
 
                            <li class="list-group-item m-0 pb-0">
                               <div class="conteudo-li-cotacao ml-auto">
-                               <div class="float-left col-4 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
+                               <div class="float-left col-6 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
                                  <p class="h5 text-center">39 - 43 anos</p>
                               </div>
-                              <div class="input-group mb-3 number-spinner col-8 col-md-5 m-0 pt-2 p-md-0">
+                              <div class="input-group mb-3 number-spinner col-6 col-md-5 m-0 pt-2 p-md-0">
                                  <div class="input-group-prepend m-0">
                                     <button class="btn btn-info btn-sm m-0" data-dir="dwn" type="button"><i class="fas fa-minus"></i></button>
                                  </div>
@@ -465,10 +465,10 @@
 
                            <li class="list-group-item m-0 pb-0">
                               <div class="conteudo-li-cotacao ml-auto">
-                               <div class="float-left col-4 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
+                               <div class="float-left col-6 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
                                  <p class="h5 text-center">44 - 48 anos</p>
                               </div>
-                              <div class="input-group mb-3 number-spinner col-8 col-md-5 m-0 pt-2 p-md-0">
+                              <div class="input-group mb-3 number-spinner col-6 col-md-5 m-0 pt-2 p-md-0">
                                  <div class="input-group-prepend m-0">
                                     <button class="btn btn-info btn-sm m-0" data-dir="dwn" type="button"><i class="fas fa-minus"></i></button>
                                  </div>
@@ -482,10 +482,10 @@
 
                            <li class="list-group-item m-0 pb-0">
                               <div class="conteudo-li-cotacao ml-auto">
-                               <div class="float-left col-4 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
+                               <div class="float-left col-6 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
                                  <p class="h5 text-center">49 - 53 anos</p>
                               </div>
-                              <div class="input-group mb-3 number-spinner col-8 col-md-5 m-0 pt-2 p-md-0">
+                              <div class="input-group mb-3 number-spinner col-6 col-md-5 m-0 pt-2 p-md-0">
                                  <div class="input-group-prepend m-0">
                                     <button class="btn btn-info btn-sm m-0" data-dir="dwn" type="button"><i class="fas fa-minus"></i></button>
                                  </div>
@@ -499,10 +499,10 @@
 
                            <li class="list-group-item m-0 pb-0">
                               <div class="conteudo-li-cotacao ml-auto">
-                               <div class="float-left col-4 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
+                               <div class="float-left col-6 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
                                  <p class="h5 text-center">Acima de 59 anos</p>
                               </div>
-                              <div class="input-group mb-3 number-spinner col-8 col-md-5 m-0 pt-2 p-md-0">
+                              <div class="input-group mb-3 number-spinner col-6 col-md-5 m-0 pt-2 p-md-0">
                                  <div class="input-group-prepend m-0">
                                     <button class="btn btn-info btn-sm m-0" data-dir="dwn" type="button"><i class="fas fa-minus"></i></button>
                                  </div>
