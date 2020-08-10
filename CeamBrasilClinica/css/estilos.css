@@ -241,7 +241,7 @@ p {
 
 @media (min-width: 0px) { 
 	#banner-animado{
-		font-size: 1.3em!important;
+		font-size: 1.5em!important;
 		height: 50px;
 		padding: 5px;
 	}
@@ -249,14 +249,14 @@ p {
 
 @media (min-width: 768px) {
 	#banner-animado{
-		font-size: 1.5em!important;
+		font-size: 2em!important;
 		height: 50px;
 	}
 }
 
 @media (min-width: 1024px) {
 	#banner-animado{
-		font-size: 2em!important;
+		font-size: 2.3em!important;
 		height: 50px;
 	}
 }
