@@ -92,7 +92,7 @@
 	    $mail->Body    = 'Nome Completo: '. $mensagem->__get('nome') .
 	    			 '<br>E-mail: '. $mensagem->__get('email') . 
 	    			 '<br>Celular: ' . $mensagem->__get('celular') .
-	    			 '<br>Mensagem : ' . $mensagem->__get('apresentacao');
+	    			 '<br>Mensagem: ' . $mensagem->__get('apresentacao');
 
 	    $mail->AltBody = 'Por favor, utilize um e-mail com suporte a HTML';
 
