@@ -45,6 +45,7 @@
 	$mensagem->__set('email', $_POST['email']);
 	$mensagem->__set('celular', $_POST['celular']);
 	$mensagem->__set('area_atuacao', $_POST['area_atuacao']);
+	$mensagem->__set('apresentacao', $_POST['apresentacao']);
 
 
 
@@ -94,7 +95,8 @@
 	    $mail->Body    = 'Nome Completo: '. $mensagem->__get('nome') .
 	    			 '<br>E-mail: '. $mensagem->__get('email') . 
 	    			 '<br>Celular: ' . $mensagem->__get('celular') .
-	    			 '<br>Mensagem : ' . $mensagem->__get('area_atuacao');
+	    			 '<br>Setor : ' . $mensagem->__get('area_atuacao') .
+	    			 '<br>Apresemtação : ' . $mensagem->__get('apresentacao');
 
 	    $mail->AltBody = 'Por favor, utilize um e-mail com suporte a HTML';
 

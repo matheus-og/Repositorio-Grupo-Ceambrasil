@@ -69,7 +69,7 @@
       <section class="container ">
          <div class="row">
             <!-- formulario de contato -->
-            <div class="col-6 col-md-6">            
+            <div class="col-12 col-md-6">            
                <form class="text-center border border-light mb-5 " action="processa_envio_contato.php" method="post">
                   <p class="h4 mb-4 text-primary">Entre em contato</p>
                   <!-- Nome -->
@@ -87,7 +87,7 @@
                </form><!-- Default form contact -->
             </div>
             <!--detalhes para contato-->
-            <div class="col-6 col-md-6">
+            <div class="col-12 col-md-6 mb-5">
                <p class="text-uppercase font-weight-bold mt-5 ml-5 text-primary">Telefone</p>
                <p class="text-uppercase text-secondary font-weight-bold mt-1 ml-5">35 3629 8000</p>
 
