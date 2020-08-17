@@ -273,8 +273,27 @@ p {
 
 #especialidades div a{
 	text-transform: uppercase!important;
+	color: #124daa!important
 }
+
+#especialidades div a:hover{
+	color: #007BFF!important
+}
+
+
+
 
 #especialidades img{
 	margin-right: 0.8em!important;
+}
+
+
+#comunicado h4{
+	margin-bottom: 1em;
+
+}
+
+#comunicado p{
+	margin-bottom: 1em;
+	
 }
