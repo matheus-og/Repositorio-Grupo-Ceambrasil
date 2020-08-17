@@ -89,7 +89,7 @@
 
 	    //Content
 	    $mail->isHTML(true);                                  // Set email format to HTML
-	    $mail->Subject = 'curriculum - ' . $mensagem->__get('nome');
+	    $mail->Subject = 'CEAM BRASIL - curriculum - ' . $mensagem->__get('nome');
 
 	    $mail->Body    = 'Nome Completo: '. $mensagem->__get('nome') .
 	    			 '<br>E-mail: '. $mensagem->__get('email') . 

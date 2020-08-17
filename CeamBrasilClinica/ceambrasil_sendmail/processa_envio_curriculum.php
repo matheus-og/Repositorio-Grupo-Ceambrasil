@@ -44,7 +44,7 @@
 	$mensagem->__set('nome', $_POST['nome']);
 	$mensagem->__set('email', $_POST['email']);
 	$mensagem->__set('celular', $_POST['celular']);
-	$mensagem->__set('apresentacao', $_POST['apresentacao']);
+	$mensagem->__set('area_atuacao', $_POST['area_atuacao']);
 
 
 
@@ -52,9 +52,9 @@
 
 	if (!$mensagem->mensagemValida()) {
 		echo "Mensagm é inválida";
-		header('Location: contato.php');
+		header('Location: trabalhe_conosco.php');
 	}else {
-		header('Location: contato.php');
+		header('Location: trabalhe_conosco.php');
 		
 		$verifica = true;
 	//echo $mensagem->__get('nome');
@@ -85,14 +85,16 @@
 	    //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
 	    //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 
+	  	
+
 	    //Content
 	    $mail->isHTML(true);                                  // Set email format to HTML
-	    $mail->Subject = 'CEAM BRASIL - Contato - ' . $mensagem->__get('nome');
+	    $mail->Subject = 'CLINICA CEAM - curriculum - ' . $mensagem->__get('nome');
 
 	    $mail->Body    = 'Nome Completo: '. $mensagem->__get('nome') .
 	    			 '<br>E-mail: '. $mensagem->__get('email') . 
 	    			 '<br>Celular: ' . $mensagem->__get('celular') .
-	    			 '<br>Mensagem: ' . $mensagem->__get('apresentacao');
+	    			 '<br>Mensagem : ' . $mensagem->__get('area_atuacao');
 
 	    $mail->AltBody = 'Por favor, utilize um e-mail com suporte a HTML';
 
@@ -113,7 +115,7 @@
 
 		if ($mensagem->mensagemValida()) {
 		echo "Mensagm é inválida";
-		header('Location: contado.php');
+		header('Location: contato.php');
 	}
 		
 		//header('Location: ../../../htdocs/CeamBrasilPlano/contato.php');

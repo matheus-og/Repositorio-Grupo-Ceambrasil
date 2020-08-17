@@ -106,7 +106,7 @@
 
 	    //Content
 	    $mail->isHTML(true);                                  // Set email format to HTML
-	    $mail->Subject = 'Cotacao - ' . $mensagem->__get('nome');
+	    $mail->Subject = 'CEAM BRASIL - Cotacao - ' . $mensagem->__get('nome');
 
 	    $mail->Body    = 'Nome Completo: '. $mensagem->__get('nome') .
 	    			 '<br>E-mail: '. $mensagem->__get('email') . 
@@ -163,16 +163,11 @@
 <html>
 <head>
 	<meta charset="utf-8" />
-    <title>App Mail Send</title>
+    <title></title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
 <body>
-	<div class="py-3 text-center">
-		<img class="d-block mx-auto mb-2" src="logo.png" alt="" width="72" height="72">
-		<h2>Send Mail</h2>
-		<p class="lead">Seu app de envio de e-mails particular!</p>
-	</div>
 	
 	<div class="row">
 		<div class="col-md-12">
@@ -192,8 +187,6 @@
 			<?php } ?>
 		</div>
 	</div>
-
-	
 	
 </body>
 </html>
