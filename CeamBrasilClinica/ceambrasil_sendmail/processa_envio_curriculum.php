@@ -96,7 +96,7 @@
 	    			 '<br>E-mail: '. $mensagem->__get('email') . 
 	    			 '<br>Celular: ' . $mensagem->__get('celular') .
 	    			 '<br>Setor : ' . $mensagem->__get('area_atuacao') .
-	    			 '<br>Apresemtação : ' . $mensagem->__get('apresentacao');
+	    			 '<br>Apresentação : ' . $mensagem->__get('apresentacao');
 
 	    $mail->AltBody = 'Por favor, utilize um e-mail com suporte a HTML';
 

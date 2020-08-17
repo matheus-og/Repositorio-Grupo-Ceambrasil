@@ -640,6 +640,6 @@
       <script src="owl-carousel/owl.carousel.min.js"></script>
       <script src="js/main.js"></script>
       <script src="js/main2.js"></script>
-      <script src="js/top.js"></script>
+      <script src="js/botaocotacao.js"></script>
    </body>
 </html>
