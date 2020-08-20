@@ -46,7 +46,7 @@
 	$mensagem->__set('celular', $_POST['celular']);
 	$mensagem->__set('area_atuacao', $_POST['area_atuacao']);
 	$mensagem->__set('apresentacao', $_POST['apresentacao']);
-
+	$mensagem->__set('file', $_POST['file']);
 
 
 	/*DADOS PESSOAIS*/
@@ -65,6 +65,7 @@
 	$mail = new PHPMailer(true);
 	try {
 	    //Server settings
+	    $mail->CharSet = 'UTF-8';
 	    $mail->SMTPDebug = true;                                 // Enable verbose debug output
 	    $mail->isSMTP();                                      // Set mailer to use SMTP
 	    $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
@@ -83,7 +84,7 @@
 	    //$mail->addBCC('bcc@example.com');
 
 	    //Attachments
-	    //$mail->addAttachment('/var/tmp/file.tar.gz');         // Add attachments
+	    //$mail->addAttachment($_FILES['file']['tmp_name'], $_FILES['file']['name']);         // Add attachments
 	    //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
 
 	  	
@@ -92,7 +93,7 @@
 	    $mail->isHTML(true);                                  // Set email format to HTML
 	    $mail->Subject = 'CEAM BRASIL - curriculum - ' . $mensagem->__get('nome');
 
-	    $mail->Body    = 'Nome Completo: '. $mensagem->__get('nome') .
+	    $mail->Body  = 'Nome Completo: '. $mensagem->__get('nome') .
 	    			 '<br>E-mail: '. $mensagem->__get('email') . 
 	    			 '<br>Celular: ' . $mensagem->__get('celular') .
 	    			 '<br>Setor : ' . $mensagem->__get('area_atuacao') .
@@ -117,7 +118,7 @@
 
 		if ($mensagem->mensagemValida()) {
 		echo "Mensagm é inválida";
-		header('Location: contato.php');
+		header('Location: trabalhe_conosco.php');
 	}
 		
 		//header('Location: ../../../htdocs/CeamBrasilPlano/contato.php');

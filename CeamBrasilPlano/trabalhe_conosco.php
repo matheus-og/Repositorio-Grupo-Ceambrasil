@@ -100,8 +100,8 @@
                      <textarea class="form-control rounded-0" id="apresentacao" name="apresentacao" rows="3" placeholder="Mensagem"></textarea>
                   </div>
 
-                  <!--input type="file" id="curriculum" name="curriculum" accept=".pdf"-->
-
+                  <!--input name="file" class="form-control" type="file" id="file"-->
+                  
                
                   <!-- Botão Enviar -->
                   <button class="btn btn-primary btn-block" type="submit">Enviar</button>

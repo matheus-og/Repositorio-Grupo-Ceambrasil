@@ -41,6 +41,7 @@
 
 
 	/*DADOS PESSOAIS*/
+	$mail->CharSet = 'UTF-8';
 	$mensagem->__set('nome', $_POST['nome']);
 	$mensagem->__set('email', $_POST['email']);
 	$mensagem->__set('celular', $_POST['celular']);
