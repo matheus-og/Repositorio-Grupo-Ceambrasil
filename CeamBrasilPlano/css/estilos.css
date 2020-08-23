@@ -382,3 +382,11 @@ p {
 @keyframes rotate {
 100% {transform: rotate(360deg);}
 } 
+
+
+
+/*ANEXO*/
+
+.custom-file-label::after{
+	content: "Anexar"!important;
+}

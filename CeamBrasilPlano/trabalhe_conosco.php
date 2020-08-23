@@ -16,6 +16,7 @@
       <link rel="stylesheet" type="text/css" href="css/estilos.css">
       <link rel="stylesheet" type="text/css" href="css/outros_estilos.css">
       <title>Contato</title>
+
    </head>
    <body id="body">
       <!--HEADER-->
@@ -94,16 +95,19 @@
                   <div class="form-group">
                      <textarea class="form-control rounded-0" id="apresentacao" name="apresentacao" rows="3" placeholder="Mensagem"></textarea>
                   </div>
-                  <input type="file" id="arquivo" name="arquivo" />
+
+                  <input class="my-4 form-control" type="file" id="arquivo" name="arquivo" />
+
+           
                   <!-- Botão Enviar -->
                   <button class="btn btn-primary btn-block" type="submit">Enviar</button>
-                  <p>Enviando, por favor, aguarde...</p>
-                  <!--CARREGANDO-->
+                  <!--CARREGANDO
                   <div class="" id="circulo">
                      <h4 class="py-1 text-primary azul-escuro font-weight-bold">Enviando...</h4>
                      <div class="carregando ml-2">
                      </div>
                   </div>
+                  -->
                </form>
                <!-- Default form contact -->
             </div>
