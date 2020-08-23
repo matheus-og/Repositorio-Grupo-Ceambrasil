@@ -641,5 +641,15 @@
       <script src="js/main.js"></script>
       <script src="js/main2.js"></script>
       <script src="js/botaocotacao.js"></script>
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163974216-2">
+      </script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-163974216-2');
+      </script>
    </body>
 </html>
