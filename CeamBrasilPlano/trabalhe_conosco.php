@@ -17,6 +17,16 @@
       <link rel="stylesheet" type="text/css" href="css/outros_estilos.css">
       <title>Contato</title>
 
+      <script type="text/javascript">  
+          var button = document.getElementById('botao-enviar')
+          button.addEventListener('click',hideshow,false);
+
+          function hideshow() {
+              document.getElementById('botao-enviar').style.display = 'block'; 
+              this.style.display = 'none'
+          }   
+      </script>
+
    </head>
    <body id="body">
       <!--HEADER-->
@@ -93,21 +103,24 @@
                   </div>
                   <!-- Mensagem -->
                   <div class="form-group">
-                     <textarea class="form-control rounded-0" id="apresentacao" name="apresentacao" rows="3" placeholder="Mensagem"></textarea>
+                     <textarea class="form-control rounded-0" id="apresentacao" name="apresentacao" rows="3" placeholder="Apresente-se e envie seu curriculum em anexo."></textarea>
                   </div>
 
                   <input class="my-4 form-control" type="file" id="arquivo" name="arquivo" />
 
            
                   <!-- Botão Enviar -->
-                  <button class="btn btn-primary btn-block" type="submit">Enviar</button>
-                  <!--CARREGANDO
-                  <div class="" id="circulo">
+                  <button id="botao-enviar" class="btn btn-primary btn-block" type="submit" data-toggle="collapse" data-target="#circulo" onclick="getElementById('botao-enviar').style.display = 'block'; this.style.display = 'none'">Enviar</button>
+                  
+                  <!--CARREGANDO-->
+                  <div class="collapse" id="circulo" >
                      <h4 class="py-1 text-primary azul-escuro font-weight-bold">Enviando...</h4>
                      <div class="carregando ml-2">
                      </div>
                   </div>
-                  -->
+                  <!--/CARREGANDO-->
+                  
+
                </form>
                <!-- Default form contact -->
             </div>
