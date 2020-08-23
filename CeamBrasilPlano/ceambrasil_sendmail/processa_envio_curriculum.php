@@ -6,15 +6,13 @@
 	use PHPMailer\PHPMailer\Exception;
 
 
-	//print_r($_POST);
 
 	class Mensagem {
 		private $nome = null;
 		private $email = null;		
 		private $mensagem = null;
+		private $arquivo = null;
 		
-		
-
 		public $status = array('codigo_status' => null, 'descricao_status' => '');
 		
 		public function __get($atributo){
@@ -36,37 +34,31 @@
 
 	$mensagem = new Mensagem();
 
-	
-
-
-
 	/*DADOS PESSOAIS*/
 	$mensagem->__set('nome', $_POST['nome']);
 	$mensagem->__set('email', $_POST['email']);
 	$mensagem->__set('celular', $_POST['celular']);
 	$mensagem->__set('area_atuacao', $_POST['area_atuacao']);
 	$mensagem->__set('apresentacao', $_POST['apresentacao']);
-	$mensagem->__set('file', $_POST['file']);
-
+	$arquivo   = $_FILES['arquivo'];
 
 	/*DADOS PESSOAIS*/
 
 	if (!$mensagem->mensagemValida()) {
-		echo "Mensagm é inválida";
 		header('Location: trabalhe_conosco.php');
-	}else {
-		header('Location: trabalhe_conosco.php');
-		
+	}else {	
+
 		$verifica = true;
-	//echo $mensagem->__get('nome');
-	//die;
+
+		
+
 
 
 	$mail = new PHPMailer(true);
 	try {
 	    //Server settings
 	    $mail->CharSet = 'UTF-8';
-	    $mail->SMTPDebug = true;                                 // Enable verbose debug output
+	    $mail->SMTPDebug = false;                                 // Enable verbose debug output
 	    $mail->isSMTP();                                      // Set mailer to use SMTP
 	    $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
 	    $mail->SMTPAuth = true;                               // Enable SMTP authentication
@@ -78,16 +70,7 @@
 	    //Recipients
 	    $mail->setFrom('contatoceambrasil@gmail.com', 'CeamBrasil Remetente');
 	    $mail->addAddress('contatoceambrasil@gmail.com', 'CeamBrasil Remetente');     // Add a recipient
-	    //$mail->addAddress('ellen@example.com');               // Name is optional
-	    //$mail->addReplyTo('info@example.com', 'Information');
-	    //$mail->addCC('cc@example.com');
-	    //$mail->addBCC('bcc@example.com');
 
-	    //Attachments
-	    //$mail->addAttachment($_FILES['file']['tmp_name'], $_FILES['file']['name']);         // Add attachments
-	    //$mail->addAttachment('/tmp/image.jpg', 'new.jpg');    // Optional name
-
-	  	
 
 	    //Content
 	    $mail->isHTML(true);                                  // Set email format to HTML
@@ -99,15 +82,20 @@
 	    			 '<br>Setor : ' . $mensagem->__get('area_atuacao') .
 	    			 '<br>Apresentação : ' . $mensagem->__get('apresentacao');
 
+        //Enviar Anexo	    			 
+	    $mail->AddAttachment($arquivo['tmp_name'], $arquivo['name']  );
+
+	
 	    $mail->AltBody = 'Por favor, utilize um e-mail com suporte a HTML';
+	    
 
 	    $mail->send();
+	    //header('Location: trabalhe_conosco.php');
 
 	    $mensagem->status['codigo_status'] = 1;
 	    $mensagem->status['descricao_status'] =  'E-mail enviado com sucesso';
 
-	    //echo 'Message has been sent';
-
+	   
 
 		} catch (Exception $e) {
 			$mensagem->status['codigo_status'] = 2;
@@ -116,17 +104,10 @@
     		
 		}
 
-		if ($mensagem->mensagemValida()) {
-		echo "Mensagm é inválida";
-		header('Location: trabalhe_conosco.php');
-	}
 		
-		//header('Location: ../../../htdocs/CeamBrasilPlano/contato.php');
-	
 
-}
-
-	
+	}
+		echo '<script> location.replace("trabalhe_conosco.php"); </script>';
 
 ?>
 
@@ -136,16 +117,16 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta http-equiv="Refresh" content="2; url=http://www.ceambrasil.com.br/trabalhe_conosco.php">
+	
 	<meta charset="utf-8" />
     <title>App Mail Send</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="estilos.css">
 </head>
 <body>
-	<div class="py-3 text-center">
-		<img class="d-block mx-auto mb-2" src="logo.png" alt="" width="72" height="72">
-		<h2>Send Mail</h2>
-		<p class="lead">Seu app de envio de e-mails particular!</p>
+	<div class="py-3 text-center">		
+		<h2>Send Mail - Debug</h2>		
 	</div>
 	
 	<div class="row">
@@ -166,8 +147,6 @@
 			<?php } ?>
 		</div>
 	</div>
-
-	
 	
 </body>
 </html>

@@ -356,3 +356,29 @@ p {
 	padding: 0.3em 0!important;
 }
 
+
+
+/* BARRA DE PROGRESSO */
+#circulo 
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+	width: 100px;
+    height: 100px;	
+}
+
+.carregando 
+{
+    width: calc(100% - 0px);
+	height: calc(100% - 0px);
+	border: 15px solid #124daa;
+	border-top: 15px solid #007BFF;
+	border-radius: 50%;
+	animation: rotate 1.5s linear infinite;
+}
+
+@keyframes rotate {
+100% {transform: rotate(360deg);}
+} 

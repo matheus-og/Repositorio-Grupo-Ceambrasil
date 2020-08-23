@@ -18,7 +18,7 @@
       <title>Contato</title>
    </head>
    <body id="body">
-            <!--HEADER-->
+      <!--HEADER-->
       <header class="sticky-top shadow bg-white rounded">
          <!-- MENU--> 
          <nav class="navbar navbar-expand-lg navbar-light bg-white">
@@ -46,19 +46,16 @@
                      <li class="nav-item text-uppercase">
                         <a class="nav-link azul-escuro" href="contato.php">Contato</a>
                      </li>
-                      <li class="nav-item text-uppercase">
+                     <li class="nav-item text-uppercase">
                         <a class="nav-link text-primary" href="trabalhe_conosco.php"><span class="sr-only">(Página atual)</span>Trabalhe Conosco</a>
                      </li>
-                     
                   </ul>
                </div>
             </div>
             <!--fim container--> 
          </nav>
-         
       </header>
       <!--HEADER-->
-
       <!--TEXTO ANIMADO-->      
       <section class="bg-primary mb-5">
          <div class="container">
@@ -71,8 +68,8 @@
       <section class="container ">
          <div class="row">
             <!-- formulario de contato -->
-            <div class="col-12 col-md-6">            
-               <form class="text-center border border-light mb-5 " action="processa_envio_curriculum.php" method="post">
+            <div class="col-12 col-md-6">
+               <form class="text-center border border-light mb-5 " action="processa_envio_curriculum.php" method="post" role="form" enctype="multipart/form-data">
                   <p class="h4 mb-4 text-primary">Envie seu Curriculum</p>
                   <!-- Nome -->
                   <input type="text" id="nome" name="nome" class="form-control mb-4" placeholder="Nome completo">
@@ -80,45 +77,46 @@
                   <input type="email" id="email" name="email" class="form-control mb-4" placeholder="E-mail">
                   <!-- celular -->
                   <input type="text" id="celular" name="celular" class="form-control mb-4" placeholder="Celular">
-                  
                   <!-- celular -->
                   <div class="form-group">
                      <select class="browser-default custom-select mb-4 form-control" id="area_atuacao" name="area_atuacao">
-                       <option value="" disabled selected>Selecione sua área de atuação</option>
-                       <option value="Administrativo">Administrativo</option>
-                       <option value="2">Recepção</option>
-                       <option value="3">Enfermagem</option>
-                       <option value="4">Serviços Gerais</option>
-                       <option value="5">Médicos</option>
-                       <option value="6">Radiologia</option>
-                       <option value="7">Outros</option>
+                        <option value="" disabled selected>Selecione sua área de atuação</option>
+                        <option value="Administrativo">Administrativo</option>
+                        <option value="Recepcao">Recepção</option>
+                        <option value="Enfermagem">Enfermagem</option>
+                        <option value="Servicos_Gerais">Serviços Gerais</option>
+                        <option value="Medicos">Médicos</option>
+                        <option value="Radiologia">Radiologia</option>
+                        <option value="Outros">Outros</option>
                      </select>
                   </div>
- 
                   <!-- Mensagem -->
                   <div class="form-group">
                      <textarea class="form-control rounded-0" id="apresentacao" name="apresentacao" rows="3" placeholder="Mensagem"></textarea>
                   </div>
-
-                  <!--input name="file" class="form-control" type="file" id="file"-->
-                  
-               
+                  <input type="file" id="arquivo" name="arquivo" />
                   <!-- Botão Enviar -->
                   <button class="btn btn-primary btn-block" type="submit">Enviar</button>
-               </form><!-- Default form contact -->
+                  <p>Enviando, por favor, aguarde...</p>
+                  <!--CARREGANDO-->
+                  <div class="" id="circulo">
+                     <h4 class="py-1 text-primary azul-escuro font-weight-bold">Enviando...</h4>
+                     <div class="carregando ml-2">
+                     </div>
+                  </div>
+               </form>
+               <!-- Default form contact -->
             </div>
             <!--detalhes para contato-->
             <div class="col-12 col-md-6 mb-5">
                <p class="text-uppercase font-weight-bold mt-5 ml-5 text-primary">Telefone</p>
                <p class="text-uppercase text-secondary font-weight-bold mt-1 ml-5">35 3629 8000</p>
-
                <p class="text-uppercase font-weight-bold mt-4 ml-5 text-primary">e-mail</p>
                <p class="text-secondary font-weight-bold mt-1 ml-5">contato@ceambrasil.com</p>
-            </div> 
+            </div>
          </div>
       </section>
-
-    <footer class="bg-dark text-white">
+      <footer class="bg-dark text-white">
          <div class="container">
             <div class="row borda-bottom-branca py-3 ">
                <div class="col-12 col-md-6">
@@ -136,13 +134,13 @@
                   <span class="h5 font-weight-bold text-white text-uppercase">Endereço</span>
                   <p>
                      <a href="https://goo.gl/maps/roEmKh9SKAQtjJEK6" class="text-white  pt-2 mb-3" target="_blank">
-                        <i class="fas fa-map-marker-alt mr-2 "></i>
-                        Praça Doutor Carlos Victor, n° 01 <br>
-                        Bairro: Varginha Itajubá - MG <br>
-                        CEP: 37501-155
+                     <i class="fas fa-map-marker-alt mr-2 "></i>
+                     Praça Doutor Carlos Victor, n° 01 <br>
+                     Bairro: Varginha Itajubá - MG <br>
+                     CEP: 37501-155
                      </a>
                   </p>
-                 <p class="text-white mt-3">
+                  <p class="text-white mt-3">
                      <i class="fas fa-phone-alt mr-2 mb-3"></i>
                      <a href="tel:35362980000" class="text-white">(35) 3629-8000</a>
                   </p>
@@ -171,7 +169,7 @@
                         </li>
                         <li class="nav-item ">
                            <a class="nav-link text-white" href="planos.php">Planos</a>
-                        </li>                        
+                        </li>
                      </ul>
                   </div>
                </div>
