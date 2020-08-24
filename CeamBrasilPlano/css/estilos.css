@@ -385,8 +385,3 @@ p {
 
 
 
-/*ANEXO*/
-
-.custom-file-label::after{
-	content: "Anexar"!important;
-}

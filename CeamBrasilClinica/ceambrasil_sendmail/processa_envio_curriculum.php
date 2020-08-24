@@ -74,7 +74,7 @@
 
 	    //Content
 	    $mail->isHTML(true);                                  // Set email format to HTML
-	    $mail->Subject = 'CLINICA CEAM - curriculum - ' . $mensagem->__get('nome');
+	    $mail->Subject = 'CLINICA CEAM - Curriculum - ' . $mensagem->__get('area_atuacao') . ' - ' . $mensagem->__get('nome');
 
 	    $mail->Body  = 'Nome Completo: '. $mensagem->__get('nome') .
 	    			 '<br>E-mail: '. $mensagem->__get('email') . 

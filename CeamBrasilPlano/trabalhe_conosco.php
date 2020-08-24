@@ -78,7 +78,7 @@
                   <!-- Email -->
                   <input type="email" id="email" name="email" class="form-control mb-4" placeholder="E-mail">
                   <!-- celular -->
-                  <input type="text" id="celular" name="celular" class="form-control mb-4" placeholder="Celular com DDD">
+                  <input type="text" id="celular" name="celular" class="form-control mb-4" placeholder="Celular (com DDD)">
                   <!-- celular -->
                   <div class="form-group">
                      <select class="browser-default custom-select mb-4 form-control" id="area_atuacao" name="area_atuacao">
