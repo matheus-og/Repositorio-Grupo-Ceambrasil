@@ -71,6 +71,7 @@
 	$mensagem->__set('39-43', $_POST['39-43']);
 	$mensagem->__set('44-48', $_POST['44-48']);
 	$mensagem->__set('49-53', $_POST['49-53']);
+	$mensagem->__set('54-59', $_POST['54-59']);
 	$mensagem->__set('maisde59', $_POST['maisde59']);
 	/*COTACAO IDADE*/
 
@@ -125,6 +126,7 @@
 	    			 '<br>39-43: ' . $mensagem->__get('39-43') .
 	    			 '<br>44-48: ' . $mensagem->__get('44-48') .
 	    			 '<br>49-53: ' . $mensagem->__get('49-53') .
+	    			 '<br>54-59: ' . $mensagem->__get('54-59') .
 	    			 '<br>Mais de 59: ' . $mensagem->__get('maisde59');
 
 	    $mail->AltBody = 'Por favor, utilize um e-mail com suporte a HTML';

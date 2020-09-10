@@ -497,6 +497,23 @@
                            </div>
                            </li>
 
+                             <li class="list-group-item m-0 pb-0">
+                              <div class="conteudo-li-cotacao ml-auto">
+                               <div class="float-left col-6 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
+                                 <p class="h5 text-center">54 - 59 anos</p>
+                              </div>
+                              <div class="input-group mb-3 number-spinner col-6 col-md-5 m-0 pt-2 p-md-0">
+                                 <div class="input-group-prepend m-0">
+                                    <button class="btn btn-info btn-sm m-0" data-dir="dwn" type="button"><i class="fas fa-minus"></i></button>
+                                 </div>
+                                 <input type="text" class="form-control text-center" value="0" name="54-59" id="54-59">
+                                 <div class="input-group-append">
+                                    <button class="btn btn-info btn-sm" data-dir="up" type="button"><i class="fas fa-plus"></i></button>
+                                 </div>
+                              </div>
+                           </div>
+                           </li>
+
                            <li class="list-group-item m-0 pb-0">
                               <div class="conteudo-li-cotacao ml-auto">
                                <div class="float-left col-6 col-md-5 m-0 p-0 pt-2 pt-md-2 d-inline pr-3">
