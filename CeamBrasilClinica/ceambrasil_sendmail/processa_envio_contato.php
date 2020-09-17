@@ -114,7 +114,7 @@
 
 		if ($mensagem->mensagemValida()) {
 		echo "Mensagm é inválida";
-		header('Location: contado.php');
+		header('Location: contato.php');
 	}
 		
 		//header('Location: ../../../htdocs/CeamBrasilPlano/contato.php');
