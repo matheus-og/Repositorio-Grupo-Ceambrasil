@@ -353,7 +353,7 @@ p {
 
 .list-group-item {
 	margin: 0!important;
-	padding: 0.3em 0!important;
+	padding: 0.3em 0.3em!important;
 }
 
 
